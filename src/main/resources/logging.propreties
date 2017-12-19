@@ -1,0 +1,7 @@
+# "handlers" specifies a comma separated list of ConsoleHandler
+handlers= java.util.logging.ConsoleHandler
+#整个 Default logging level.
+.level= ALL
+#控制台 Limit the message that are printed on the console to CONFIG and above.
+java.util.logging.ConsoleHandler.level = ALL
+java.util.logging.ConsoleHandler.formatter = java.util.logging.SimpleFormatter
